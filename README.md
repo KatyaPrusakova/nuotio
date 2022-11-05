@@ -1,117 +1,70 @@
-<p align="center">
-  <img src="./showcase/prime-react-native.jpg" width="750">
-</p>
+# Getting Started with Create React App
 
-The ultimate collection of production-ready, flexible and accessible React Native Boilerplate 🔥
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- 📱 **React Native** — version **0.64.0**
-- 🎉 **TypeScript** - Type checking
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🌘 **Dark Mode** - Support dark mode
-- 🌆 **UI Kit** - Beautiful UI
-- ⚙️ **RN Dotenv** Environment variable with RN env
+## Available Scripts
 
-## 🚀 Getting started
+In the project directory, you can run:
 
-The best way to start with the template is to [click here](https://github.com/joeygoksu/LightReactNative/generate).
+### `npm start`
 
-Run the `setup.sh` inside the project folder:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. `bash ./setup`
-2. Answer to `What is the name of the new project ❓`
-3. Wait until the see success message
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-_Almost ready_, we're a few steps away
+### `npm test`
 
-Install node dependencies
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```yarn
-yarn install (or npm run install)
-```
+### `npm run build`
 
-Install Dependencies for iOS
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```
-npx pod-install
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# 🌼 Onboarding Screens
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<img src="./showcase/1.png" width="750">
+### `npm run eject`
 
-<img src="./showcase/2.png" width="750">
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Tech**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- React Native
-- Typescript
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Navigation**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- React-Navigation 5.9+
+## Learn More
 
-**UI and Theme**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- @eva-design
-- @ui-kitten/eva-icons
-- react-native-responsive-screen
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**Splash Screen**
+### Code Splitting
 
-- react-native-bootsplash
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-**Store**
+### Analyzing the Bundle Size
 
-- Redux
-- Redux-Saga
-- Redux-Toolkit
-- Redux-Persist
-- Async-Storage by Community
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**Linting and Formating**
+### Making a Progressive Web App
 
-- Eslint
-- Prettier
-- EditorConfig
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-**Others**
+### Advanced Configuration
 
-- react-native-gesture-handler
-- react-native-reanimated
-- react-native-safe-area-context
-- react-native-svg
-- react-native-clean-project
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## 🤝 Contributing
+### Deployment
 
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 📝 License
+### `npm run build` fails to minify
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
-
----
-
-## 🌸 Built with template
-
-- [Vocabulary Builder App](https://github.com/joeygoksu/VocabularyBuilderApp)
-- [Animal Finder Game](https://github.com/joeygoksu/AnimalFinderGame)
-
----
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
-<table>
-  <tr>
-    <td align="center"><a href="https://joeygoksu.com"><img src="https://avatars.githubusercontent.com/u/6523823?v=3?s=100" width="100px;" alt=""/><br /><sub><b>Joey Goksu</b></sub></a><br />
-    <a href="https://joeygoksu.com/aboutme" title="About me">📖</a>
-    </td>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-Made with ♥ by <a href="https://joeygoksu.com/">Joey Göksu</a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
